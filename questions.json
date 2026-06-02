@@ -1,0 +1,139 @@
+{
+  "HR": [
+    {
+      "question": "Tell me about yourself.",
+      "keywords": ["education", "skills", "experience", "career"]
+    },
+    {
+      "question": "Why should we hire you?",
+      "keywords": ["skills", "team", "contribution", "learn"]
+    },
+    {
+      "question": "What are your strengths?",
+      "keywords": ["strength", "skill", "ability", "improvement"]
+    },
+    {
+      "question": "What are your weaknesses?",
+      "keywords": ["weakness", "improve", "learn", "develop"]
+    },
+    {
+      "question": "Where do you see yourself in 5 years?",
+      "keywords": ["career", "growth", "goal", "future"]
+    }
+  ],
+
+  "Python": [
+    {
+      "question": "What is a list in Python?",
+      "keywords": ["ordered", "mutable", "collection", "elements"]
+    },
+    {
+      "question": "What is a dictionary?",
+      "keywords": ["key", "value", "mapping", "pair"]
+    },
+    {
+      "question": "Difference between list and tuple?",
+      "keywords": ["mutable", "immutable", "list", "tuple"]
+    },
+    {
+      "question": "What is list comprehension?",
+      "keywords": ["list", "loop", "expression", "create"]
+    },
+    {
+      "question": "What is a function in Python?",
+      "keywords": ["function", "reuse", "code", "def"]
+    }
+  ],
+
+  "DSA": [
+    {
+      "question": "What is a stack?",
+      "keywords": ["lifo", "push", "pop"]
+    },
+    {
+      "question": "What is a queue?",
+      "keywords": ["fifo", "enqueue", "dequeue"]
+    },
+    {
+      "question": "What is a linked list?",
+      "keywords": ["node", "pointer", "next"]
+    },
+    {
+      "question": "What is binary search?",
+      "keywords": ["sorted", "middle", "search", "log"]
+    },
+    {
+      "question": "What is time complexity?",
+      "keywords": ["efficiency", "algorithm", "big o"]
+    }
+  ],
+
+  "Operating Systems": [
+    {
+      "question": "What is a process?",
+      "keywords": ["program", "execution", "memory"]
+    },
+    {
+      "question": "What is a thread?",
+      "keywords": ["lightweight", "process", "execution"]
+    },
+    {
+      "question": "What is deadlock?",
+      "keywords": ["waiting", "resources", "blocked"]
+    },
+    {
+      "question": "What is CPU scheduling?",
+      "keywords": ["cpu", "process", "execution"]
+    },
+    {
+      "question": "Difference between process and thread?",
+      "keywords": ["memory", "process", "thread"]
+    }
+  ],
+
+  "DBMS": [
+    {
+      "question": "What is normalization?",
+      "keywords": ["redundancy", "database", "normal forms"]
+    },
+    {
+      "question": "What is a primary key?",
+      "keywords": ["unique", "identify", "record"]
+    },
+    {
+      "question": "What is a foreign key?",
+      "keywords": ["relation", "table", "reference"]
+    },
+    {
+      "question": "Difference between DELETE and TRUNCATE?",
+      "keywords": ["delete", "truncate", "rows"]
+    },
+    {
+      "question": "What is SQL?",
+      "keywords": ["query", "database", "language"]
+    }
+  ],
+
+  "AI_ML": [
+    {
+      "question": "What is supervised learning?",
+      "keywords": ["labeled", "training", "data"]
+    },
+    {
+      "question": "What is unsupervised learning?",
+      "keywords": ["unlabeled", "clustering", "data"]
+    },
+    {
+      "question": "What is overfitting?",
+      "keywords": ["training", "test", "generalization"]
+    },
+    {
+      "question": "What is underfitting?",
+      "keywords": ["poor", "training", "model"]
+    },
+    {
+      "question": "What is gradient descent?",
+      "keywords": ["optimization", "loss", "minimum"]
+    }
+  ]
+}
