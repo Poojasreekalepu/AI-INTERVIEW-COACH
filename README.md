@@ -2,43 +2,167 @@
 AI-powered interview preparation platform that provides interview questions, answer evaluation, scoring, and feedback for students.
 
 ## Overview
-AI Interview Coach is a web application designed to help students practice interview questions and improve their interview performance. The application provides interview questions, accepts user responses, evaluates answers, and gives feedback to help users prepare for placements and job interviews.
+AI Interview Coach is an interactive interview preparation platform designed to help students and job seekers practice technical and HR interview questions.
+
+The application provides domain-specific interview questions, evaluates user responses, and generates performance scores based on relevance, technical accuracy, communication, and completeness.
+
+This project aims to improve interview confidence and help users identify areas for improvement through continuous practice.
+
+## Problem Statement
+
+Many students struggle during interviews because they:
+
+* Lack interview practice
+* Do not know how to structure answers
+* Have difficulty identifying weak areas
+* Need personalized feedback
+
+AI Interview Coach provides a simple platform to simulate interview experiences and track performance.
 
 ## Features
-- Random interview questions
-- Answer submission
-- Basic answer scoring
-- Feedback generation
-- User-friendly interface
 
-## Tech Stack
-- Python
-- Streamlit
-- JSON
+### ✅ Domain-Based Interview Preparation
 
-## Project Status
-🚀 Currently under development as part of an Open Source Hackathon.
+Users can choose interview questions from multiple domains:
 
-## Future Enhancements
-- AI-powered answer evaluation
-- Communication skill analysis
-- Technical interview question bank
-- Interview history tracking
-- Personalized improvement suggestions
+* HR
+* Python
+* Data Structures & Algorithms (DSA)
+* Operating Systems (OS)
+* Database Management Systems (DBMS)
+* Artificial Intelligence & Machine Learning (AI/ML)
+
+### ✅ Difficulty Levels
+
+Each domain contains:
+
+* Easy Questions
+* Medium Questions
+* Hard Questions
+
+This allows users to gradually improve their interview skills.
+
+### ✅ Random Question Generation
+
+The system randomly selects a question from the chosen domain and difficulty level.
+
+### ✅ Answer Evaluation
+
+User answers are evaluated based on:
+
+1. Relevance (5 Marks)
+2. Technical Accuracy (5 Marks)
+3. Communication Skills (5 Marks)
+4. Completeness (5 Marks)
+
+Total Score: 20 Marks
+
+### ✅ Performance Report
+
+The application generates:
+
+* Detailed Score Report
+* Performance Level
+* Keyword Matching Analysis
+* Improvement Suggestions
+
+## Technology Stack
+
+### Frontend
+
+* Streamlit
+
+### Backend
+
+* Python
+
+### Data Storage
+
+* JSON
+
+## Project Structure
+
+AI-Interview-Coach/
+
+├── app.py
+
+├── questions.json
+
+├── requirements.txt
+
+├── README.md
 
 ## How to Run
 
-1. Install dependencies:
+### Step 1
 
-```bash
+Clone the repository
+
+git clone YOUR_REPOSITORY_LINK
+
+### Step 2
+
+Navigate to project folder
+
+cd AI-Interview-Coach
+
+### Step 3
+
+Install dependencies
+
 pip install -r requirements.txt
-```
 
-2. Run the application:
+### Step 4
 
-```bash
+Run application
+
 streamlit run app.py
-```
+
+## Current Functionalities
+
+* Domain Selection
+* Difficulty Selection
+* Random Question Generation
+* Answer Evaluation
+* Score Calculation
+* Feedback Generation
+
+## Future Enhancements
+
+### Gemini AI Integration
+
+AI-powered evaluation of answers based on:
+
+* Technical Accuracy
+* Communication Skills
+* Confidence Level
+* Relevance
+
+### Resume-Based Question Generation
+
+Users can upload resumes and receive personalized interview questions.
+
+### Interview History Tracking
+
+Store previous interview attempts and performance records.
+
+### Performance Dashboard
+
+Visualize:
+
+* Average Score
+* Best Score
+* Strongest Domain
+* Weakest Domain
+
+## Target Users
+
+* Students preparing for placements
+* Internship applicants
+* Fresh graduates
+* Technical interview candidates
 
 ## Author
+
+Developed as part of an Open Source Hackathon project to create an intelligent interview preparation platform.
 Pooja Sree
