@@ -1,0 +1,187 @@
+{
+  "HR": {
+    "Easy": [
+      {
+        "question": "Tell me about yourself.",
+        "keywords": ["education", "skills", "background"]
+      },
+      {
+        "question": "What are your strengths?",
+        "keywords": ["strength", "skill", "ability"]
+      }
+    ],
+
+    "Medium": [
+      {
+        "question": "Why should we hire you?",
+        "keywords": ["skills", "contribution", "team"]
+      },
+      {
+        "question": "Describe a challenge you faced.",
+        "keywords": ["challenge", "problem", "solution"]
+      }
+    ],
+
+    "Hard": [
+      {
+        "question": "How do you handle conflict in a team?",
+        "keywords": ["conflict", "communication", "resolution"]
+      }
+    ]
+  },
+
+  "Python": {
+    "Easy": [
+      {
+        "question": "What is a list in Python?",
+        "keywords": ["ordered", "mutable", "collection"]
+      },
+      {
+        "question": "What is a dictionary?",
+        "keywords": ["key", "value", "mapping"]
+      }
+    ],
+
+    "Medium": [
+      {
+        "question": "What is list comprehension?",
+        "keywords": ["expression", "loop", "list"]
+      },
+      {
+        "question": "Difference between list and tuple?",
+        "keywords": ["mutable", "immutable", "tuple"]
+      }
+    ],
+
+    "Hard": [
+      {
+        "question": "Explain decorators in Python.",
+        "keywords": ["function", "wrapper", "decorator"]
+      }
+    ]
+  },
+
+  "DSA": {
+    "Easy": [
+      {
+        "question": "What is a stack?",
+        "keywords": ["lifo", "push", "pop"]
+      },
+      {
+        "question": "What is a queue?",
+        "keywords": ["fifo", "enqueue", "dequeue"]
+      }
+    ],
+
+    "Medium": [
+      {
+        "question": "What is a linked list?",
+        "keywords": ["node", "pointer", "next"]
+      },
+      {
+        "question": "What is binary search?",
+        "keywords": ["sorted", "middle", "search"]
+      }
+    ],
+
+    "Hard": [
+      {
+        "question": "Explain time complexity.",
+        "keywords": ["big o", "efficiency", "algorithm"]
+      }
+    ]
+  },
+
+  "Operating Systems": {
+    "Easy": [
+      {
+        "question": "What is a process?",
+        "keywords": ["program", "execution", "memory"]
+      },
+      {
+        "question": "What is a thread?",
+        "keywords": ["lightweight", "execution", "process"]
+      }
+    ],
+
+    "Medium": [
+      {
+        "question": "What is deadlock?",
+        "keywords": ["waiting", "resources", "blocked"]
+      },
+      {
+        "question": "What is CPU scheduling?",
+        "keywords": ["cpu", "process", "execution"]
+      }
+    ],
+
+    "Hard": [
+      {
+        "question": "Difference between process and thread?",
+        "keywords": ["memory", "thread", "process"]
+      }
+    ]
+  },
+
+  "DBMS": {
+    "Easy": [
+      {
+        "question": "What is a primary key?",
+        "keywords": ["unique", "record", "identify"]
+      },
+      {
+        "question": "What is a foreign key?",
+        "keywords": ["reference", "relation", "table"]
+      }
+    ],
+
+    "Medium": [
+      {
+        "question": "What is normalization?",
+        "keywords": ["redundancy", "database", "normal forms"]
+      },
+      {
+        "question": "What is SQL?",
+        "keywords": ["query", "database", "language"]
+      }
+    ],
+
+    "Hard": [
+      {
+        "question": "Difference between DELETE and TRUNCATE?",
+        "keywords": ["delete", "truncate", "rows"]
+      }
+    ]
+  },
+
+  "AI_ML": {
+    "Easy": [
+      {
+        "question": "What is supervised learning?",
+        "keywords": ["labeled", "training", "data"]
+      },
+      {
+        "question": "What is unsupervised learning?",
+        "keywords": ["unlabeled", "clustering", "data"]
+      }
+    ],
+
+    "Medium": [
+      {
+        "question": "What is overfitting?",
+        "keywords": ["training", "test", "generalization"]
+      },
+      {
+        "question": "What is underfitting?",
+        "keywords": ["poor", "training", "model"]
+      }
+    ],
+
+    "Hard": [
+      {
+        "question": "What is gradient descent?",
+        "keywords": ["optimization", "loss", "minimum"]
+      }
+    ]
+  }
+}
