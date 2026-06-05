@@ -1,104 +1,38 @@
 # 🎯 AI Interview Coach
 
-## Overview
-
-AI Interview Coach is an intelligent interview preparation platform that helps students, fresh graduates, and job seekers practice company-specific interview questions using Generative AI.
-
-Unlike traditional interview practice systems that rely on fixed question banks, this application dynamically generates unique interview questions using Google Gemini AI and evaluates candidate responses with AI-powered feedback.
-
-The goal is to simulate real interview experiences and help users improve their technical knowledge, communication skills, and interview confidence.
-
-
 ## Problem Statement
 
-Many candidates face difficulties during interviews because:
+Many students and job seekers struggle to prepare for interviews because they rely on static question banks and do not receive meaningful feedback on their answers. Traditional interview preparation platforms often repeat the same questions and lack personalized evaluation.
 
-* They lack realistic interview practice.
-* They repeatedly encounter the same practice questions.
-* They do not receive personalized feedback.
-* They struggle to identify strengths and weaknesses.
-
-AI Interview Coach addresses these challenges by generating dynamic interview questions and providing AI-based evaluations.
+AI Interview Coach solves this problem by generating company-specific interview questions using AI and providing instant feedback on candidate responses.
 
 
-## Key Features
+## Project Overview
 
-### 🚀 AI-Powered Question Generation
-
-Questions are dynamically generated using Google Gemini AI based on:
-
-* Company
-* Domain
-* Difficulty Level
-
-This ensures fresh and relevant interview questions.
+AI Interview Coach is a web application that helps users practice interviews in different domains such as Python, DSA, Operating Systems, DBMS, AI/ML, and HR. The system generates unique interview questions using Google Gemini AI and evaluates user answers with detailed feedback.
 
 
-### 🏢 Company-Specific Preparation
+## Features
 
-Users can prepare for interviews of companies such as:
+* AI-generated interview questions
+* Company-specific interview preparation
+* Multiple interview domains
 
-* Google
-* Amazon
-* Microsoft
-* Meta
-* Apple
-* Netflix
-* TCS
-* Infosys
-* Wipro
-* Accenture
-* Cognizant
-* Capgemini
-* Deloitte
-
-
-### 📚 Multiple Interview Domains
-
-Supported domains include:
-
-* HR
-* Python
-* Data Structures & Algorithms
-* Operating Systems
-* Database Management Systems
-* Artificial Intelligence & Machine Learning
+  * HR
+  * Python
+  * DSA
+  * Operating Systems
+  * DBMS
+  * AI/ML
+* Easy, Medium, and Hard difficulty levels
+* AI-powered answer evaluation
+* Feedback with strengths and improvement suggestions
+* Reduced question repetition
+* Interview history tracking
+* Performance dashboard
 
 
-### 🎯 Difficulty Levels
-
-Users can select:
-
-* Easy
-* Medium
-* Hard
-
-to match their preparation level.
-
-
-### 🤖 AI Answer Evaluation
-
-Google Gemini AI evaluates candidate responses based on:
-
-* Relevance
-* Technical Accuracy
-* Communication Skills
-* Completeness
-
-The system provides:
-
-* Scores
-* Strengths
-* Weaknesses
-* Improvement Suggestions
-
-
-### 🔄 Reduced Question Repetition
-
-Previously generated questions are tracked during the session and avoided whenever possible, creating a more diverse interview experience.
-
-
-## Technology Stack
+## Technologies Used
 
 ### Frontend
 
@@ -112,108 +46,99 @@ Previously generated questions are tracked during the session and avoided whenev
 
 * Google Gemini 2.5 Flash
 
+### Data Storage
+
+* CSV (history tracking)
+
 ### Version Control
 
-* Git & GitHub
+* GitHub
 
 
-## Project Architecture
+## Installation Steps
 
-## Architecture
-
-User Input
--> Company Selection
--> Domain Selection
--> Difficulty Selection
--> Gemini AI Question Generation
--> User Response
--> Gemini AI Evaluation
--> Feedback Report
-
-
-## Installation
-
-### Clone Repository
+### 1. Clone the Repository
 
 ```bash
-git clone YOUR_REPOSITORY_LINK
+git clone <repository-url>
 ```
 
-### Navigate to Project Directory
+### 2. Open Project Folder
 
 ```bash
-cd AI-Interview-Coach
+cd AIINTERVIEWCOACH
 ```
 
-### Install Dependencies
+### 3. Install Required Packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Application
+### 4. Add Gemini API Key
+
+Replace:
+
+```python
+genai.configure(api_key="YOUR_GOOGLE_API_KEY")
+```
+
+with your Gemini API key.
+
+### 5. Run the Application
 
 ```bash
 streamlit run app.py
 ```
 
----
 
-## Requirements
 
-```text
-streamlit
-google-generativeai
-```
+## Project Workflow
 
----
+1. User selects a company.
+2. User selects a domain.
+3. User selects difficulty level.
+4. Gemini AI generates a unique interview question.
+5. User submits an answer.
+6. Gemini AI evaluates the response.
+7. Feedback and score are displayed.
+8. Results are stored in interview history.
+9. Dashboard displays performance statistics.
+
+
+## Screenshots
+
+### Home Page
+
+<img width="1911" height="996" alt="image" src="https://github.com/user-attachments/assets/4cc3c133-906f-47b2-b6ff-608cf5c447f8" />
+
+
+### AI Generated Question
+
+<img width="1876" height="971" alt="image" src="https://github.com/user-attachments/assets/9af672f8-3c71-42a0-9a8b-fe72b95659f3" />
+
+
+### AI Evaluation Report
+
+<img width="414" height="949" alt="image" src="https://github.com/user-attachments/assets/4b774505-47a7-485d-93cc-28ebd5add03e" />
+
+
+### Dashboard
+
+<img width="980" height="911" alt="image" src="https://github.com/user-attachments/assets/c3b432fe-95ec-439c-9441-e7c715cf0af3" />
+
 
 ## Future Enhancements
 
-### 📊 Performance Dashboard
+* Resume-based interview questions
+* Voice-based mock interviews
+* Advanced analytics dashboard
+* Personalized learning recommendations
+* Export interview reports
 
-* Average Score
-* Best Score
-* Interview Analytics
-
-### 📝 Interview History
-
-Store and view previous interview attempts.
-
-### 📄 Resume-Based Interview Generation
-
-Generate personalized questions from uploaded resumes.
-
-### 🎤 Mock Interview Mode
-
-Interactive conversational interview sessions.
-
-
-## Target Users
-
-* Students preparing for placements
-* Internship applicants
-* Fresh graduates
-* Software engineering candidates
-* Technical interview aspirants
-
-
-## Project Highlights
-
-✅ Company-Specific Interview Preparation
-
-✅ AI-Generated Dynamic Questions
-
-✅ AI-Based Answer Evaluation
-
-✅ Difficulty-Based Learning
-
-✅ Reduced Question Repetition
-
-✅ Modern Streamlit Interface
-
+---
 
 ## Author
 
-Developed as an AI-powered interview preparation platform for an Open Source Hackathon using Python, Streamlit, and Google Gemini AI.
-Pooja Sree
+Developed for Open Source Hackathon 2026 using Python, Streamlit, and Google Gemini AI.
+Pooja Sree Kalepu
