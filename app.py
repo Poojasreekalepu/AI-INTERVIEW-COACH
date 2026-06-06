@@ -1,5 +1,5 @@
-import pandas as pd
 import os
+import pandas as pd
 import re
 import streamlit as st
 import google.generativeai as genai
@@ -8,7 +8,9 @@ import google.generativeai as genai
 # GEMINI SETUP
 # =========================
 
-genai.configure(api_key="YOUR_GOOGLE_API_KEY")
+genai.configure(
+    api_key=os.getenv("GEMINI_API_KEY")
+)
 
 model = genai.GenerativeModel("gemini-2.5-flash")
 
